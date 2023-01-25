@@ -32,7 +32,7 @@ public class Ejemplo07 {
         }
         catch(ArithmeticException arithmeticException){
             // enviar un correo programa
-            System.out.println("Lo sentimos hay un error");
+            System.out.println("Lo sentimos hay un error\n");
             System.out.printf("De tipo %s\n", arithmeticException);
         
         }
